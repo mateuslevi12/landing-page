@@ -1,131 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Landing page de Mateus Levi Dev - Especialista em Automações com ManyChat, N8N e Make" />
-  <title>Mateus Levi Dev | Automações Inteligentes</title>
+  <title>Jungle - Soluções Inteligentes em Tecnologia</title>
+  <!-- Adicione isso dentro da <head> -->
+  <meta name="description"
+    content="Jungle - Soluções tecnológicas para saúde, automações e assistentes com IA. Suporte 24h.">
+  <meta name="author" content="Jungle Tecnologia">
+  <link rel="canonical" href="https://www.seudominio.com.br">
+  <link rel="icon" href="/logo-jungle.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
+    html {
+      scroll-behavior: smooth;
     }
+
     body {
-      background: #0d1117;
-      color: #f0f6fc;
-      line-height: 1.6;
-    }
-    header {
-      background: #161b22;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      color: #58a6ff;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
-      color: #79c0ff;
-      margin-bottom: 1rem;
-    }
-    p {
-      margin-bottom: 1rem;
-    }
-    ul {
-      margin-left: 1rem;
-      margin-bottom: 1rem;
-    }
-    .cta {
-      display: block;
-      width: fit-content;
-      margin: 2rem auto;
-      background: #238636;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #161b22;
-      font-size: 0.9rem;
-      color: #8b949e;
-    }
-    .legal {
-      font-size: 0.85rem;
-      color: #8b949e;
-      margin-top: 2rem;
-      text-align: center;
-    }
-    a {
-      color: #58a6ff;
+      font-family: 'Arial', sans-serif;
     }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Mateus Levi Dev</h1>
-    <p>Especialista em Automações com ManyChat, N8N e Make</p>
+
+<body class="bg-black text-white">
+
+  <!-- Menu -->
+  <nav class="fixed w-full z-50 bg-black bg-opacity-90 border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="text-green-500 text-2xl font-bold">Jungle</div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-green-500">Home</a>
+        <a href="#stacks" class="hover:text-green-500">Stacks</a>
+        <a href="#servicos" class="hover:text-green-500">Serviços</a>
+        <a href="#clientes" class="hover:text-green-500">Clientes</a>
+        <a href="#contato" class="hover:text-green-500">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section 1: Home -->
+  <header id="home"
+    class="min-h-screen w-full px-10 pt-32 pb-20 flex flex-col lg:flex-row items-center justify-between bg-black">
+    <div class="max-w-xl space-y-6">
+      <h1 class="text-4xl font-bold text-white">Jungle — Tecnologia e Inovação para Saúde e Automação</h1>
+      <p class="text-lg text-gray-300">
+        Desenvolvemos sistemas completos para a saúde pública e privada, com automações inteligentes e suporte 24 horas.
+      </p>
+      <a href="#contato" class="bg-green-500 text-black font-semibold px-6 py-3 rounded-md inline-block">Fale
+        conosco</a>
+    </div>
+    <img src="logo-jungle.png" alt="Logo Jungle" class="object-contain w-[50%]" />
   </header>
 
-  <main>
-    <section>
-      <h2>Automatize seu Negócio</h2>
-      <p>Você está perdendo tempo com tarefas repetitivas? Deixe que eu cuido disso para você. Crio automações inteligentes com ferramentas poderosas como:</p>
-      <ul>
-        <li><strong>ManyChat</strong> - Chatbots no WhatsApp, Instagram e Facebook</li>
-        <li><strong>N8N</strong> - Workflows customizados para integrações e automações complexas</li>
-        <li><strong>Make (Integromat)</strong> - Conexões entre centenas de apps sem escrever código</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Por que escolher automação?</h2>
-      <p>Com as soluções certas, você pode aumentar sua produtividade, melhorar a experiência do cliente e escalar seu negócio de forma inteligente e segura.</p>
-    </section>
-
-    <section>
-      <h2>Vamos conversar?</h2>
-      <p>Quer transformar seu processo? Fale comigo e veja como podemos colocar seu negócio no piloto automático.</p>
-      <a class="cta" href="https://wa.me/SEU_NUMERO_AQUI" target="_blank">Fale comigo no WhatsApp</a>
-    </section>
-
-    <section>
-      <h2>Contato</h2>
-      <p><strong>Email:</strong> mateuslevi_alencar@hotmail.com</p>
-      <p><strong>Telefone:</strong> (85) 99722-6672</p>
-      <p><strong>Atendimento:</strong> Remoto para todo o Brasil</p>
-      <p><strong>CPF:</strong> 080.873.513-63</p> <!-- Substitua com seu CNPJ real se tiver -->
-    </section>
-
-    <section>
-      <h2>Política de Privacidade</h2>
-      <p>Seus dados são tratados com responsabilidade e segurança. As informações coletadas em formulários ou conversas são usadas exclusivamente para contato comercial e nunca serão compartilhadas com terceiros sem autorização.</p>
-    </section>
-
-    <section>
-      <h2>Termos de Serviço</h2>
-      <p>Ao contratar nossos serviços, você concorda com o fornecimento de soluções automatizadas conforme acordado entre as partes, respeitando prazos, escopo e confidencialidade.</p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 Mateus Levi Dev. Todos os direitos reservados.
-    <div class="legal">
-      Este site segue a <a href="https://www.whatsapp.com/legal/business-policy/" target="_blank">Política Empresarial do WhatsApp</a>.
+  <!-- Section 2: Stacks -->
+  <section id="stacks" class="w-full py-20 px-10 bg-black flex flex-col justify-center">
+    <h2 class="text-3xl font-bold mb-10 text-center text-green-500">Stacks que Utilizamos</h2>
+    <!-- Carrossel infinito -->
+    <div class="overflow-hidden w-full py-4">
+      <div class="flex animate-marquee whitespace-nowrap space-x-10 text-white text-sm">
+        <!-- Duplicamos o conteúdo para looping contínuo -->
+        <div class="flex space-x-10 uppercase">
+          <span class="p-4 bg-gray-900 rounded-lg shadow">NEXT.JS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">REACT</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">NODE.JS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">NEST.JS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">PRISMA</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">DOCKER</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">AWS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">MINIO</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">MANYCHAT</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">N8N</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">MAKE</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">AIRTABLE</span>
+        </div>
+        <div class="flex space-x-10 uppercase">
+          <span class="p-4 bg-gray-900 rounded-lg shadow">NEXT.JS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">REACT</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">NODE.JS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">NEST.JS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">PRISMA</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">DOCKER</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">AWS</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">MINIO</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">MANYCHAT</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">N8N</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">MAKE</span>
+          <span class="p-4 bg-gray-900 rounded-lg shadow">AIRTABLE</span>
+        </div>
+      </div>
     </div>
+
+    <!-- Tailwind custom animation -->
+    <style>
+      @keyframes marquee {
+        0% {
+          transform: translateX(0%);
+        }
+
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      .animate-marquee {
+        animation: marquee 20s linear infinite;
+      }
+    </style>
+
+  </section>
+
+  <!-- Section 3: Serviços -->
+  <section id="servicos" class="min-h-screen w-full py-20 px-10 bg-black flex flex-col justify-center">
+    <h2 class="text-3xl font-bold mb-10 text-center text-green-500">Nossos Serviços</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-white">
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2 text-green-500">Sistemas para Saúde</h3>
+        <p>Desenvolvemos soluções completas para hospitais, clínicas e secretarias de saúde: regulação, BI, agendamento,
+          almoxarifado e mais.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2 text-green-500">Automações com IA</h3>
+        <p>Automatize fluxos operacionais com inteligência artificial usando n8n, Make, ManyChat, ChatGPT e integrações
+          com APIs externas.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2 text-green-500">Assistentes com IA</h3>
+        <p>Criação de assistentes virtuais inteligentes para agendamentos, captação de leads, suporte ao cliente e
+          respostas automáticas.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2 text-green-500">Desenvolvimento Web</h3>
+        <p>Sistemas web modernos com Next.js, React, Node.js e NestJS, focados em performance, escalabilidade e
+          segurança.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2 text-green-500">Desenvolvimento Mobile</h3>
+        <p>Aplicativos híbridos com React Native e Ionic, integrados com APIs, bancos de dados e recursos nativos como
+          geolocalização.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Section 4: Clientes -->
+  <section id="clientes" class="min-h-screen w-full py-20 px-10 bg-black flex flex-col justify-center">
+    <h2 class="text-3xl font-bold mb-10 text-center text-green-500">Nossos Clientes</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center text-white text-lg">
+      <div class="bg-gray-800 py-6 rounded">JP Technologies</div>
+      <div class="bg-gray-800 py-6 rounded">Digital College</div>
+      <div class="bg-gray-800 py-6 rounded">Porkinho Pizzaria</div>
+      <div class="bg-gray-800 py-6 rounded">Porkinho Feijoada</div>
+      <div class="bg-gray-800 py-6 rounded">Liga Ceará</div>
+    </div>
+  </section>
+
+  <!-- Section 5: Footer -->
+  <!-- Section 5: Footer -->
+  <footer id="contato"
+    class="w-full bg-gray-900 px-10 py-10 flex flex-col justify-center items-center text-gray-400 text-sm space-y-2">
+    <p class="text-white font-bold text-lg">Jungle Tecnologia</p>
+    <p>CNPJ: 00.000.000/0001-00</p>
+    <p>Rua Exemplo, 123 - Centro, Fortaleza/CE - CEP: 60000-000</p>
+    <p>Email: contato@jungletecnologia.com.br | Telefone: (85) 9 9999-9999</p>
+    <a href="/politica-de-privacidade.html" class="text-green-500 hover:underline" target="_blank">Política de
+      Privacidade</a>
+    <p class="pt-4 text-gray-500">© 2025 Jungle Tecnologia. Todos os direitos reservados.</p>
+    <p class="text-gray-500">Desenvolvido por Jungle | Suporte 24h</p>
   </footer>
+
+  <!-- Informações Legais e de Verificação -->
+  <section class="w-full px-10 py-10 bg-gray-900 text-gray-300 text-sm space-y-6">
+    <div class="max-w-4xl mx-auto space-y-4">
+      <h2 class="text-green-500 text-xl font-bold">Política de Privacidade</h2>
+      <p>Seus dados são tratados com responsabilidade e segurança. As informações fornecidas por clientes e visitantes
+        são utilizadas apenas para fins comerciais e não são compartilhadas com terceiros sem consentimento.</p>
+
+      <h2 class="text-green-500 text-xl font-bold">Termos de Serviço</h2>
+      <p>Ao contratar nossos serviços, você concorda com o fornecimento de soluções tecnológicas conforme escopo
+        acordado, com respeito à confidencialidade, prazos e uso responsável dos dados.</p>
+
+      <h2 class="text-green-500 text-xl font-bold">Informações da Empresa</h2>
+      <p><strong>Empresa:</strong> Jungle Tecnologia</p>
+      <p><strong>CNPJ:</strong> 00.000.000/0001-00</p>
+      <p><strong>Endereço:</strong> Rua Exemplo, 123 - Centro, Fortaleza/CE - CEP: 60000-000</p>
+      <p><strong>Email:</strong> contato@jungletecnologia.com.br</p>
+      <p><strong>Telefone:</strong> (85) 9 9999-9999</p>
+      <p><strong>Atendimento:</strong> Remoto para todo o Brasil</p>
+
+      <h2 class="text-green-500 text-xl font-bold">Conformidade</h2>
+      <p>Este site está em conformidade com a <a href="https://www.whatsapp.com/legal/business-policy/"
+          class="text-green-500 underline" target="_blank">Política Empresarial do WhatsApp</a>.</p>
+    </div>
+  </section>
+
+
 </body>
+
 </html>
